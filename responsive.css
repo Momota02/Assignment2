@@ -67,4 +67,10 @@
         width: 90%;
         
     }  
+    .team-member{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-1 img{
+        width: 100%;
+    }
 }
