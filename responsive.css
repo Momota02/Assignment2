@@ -53,4 +53,18 @@
     .run-image img{
         width: 90%;
     }
+    .bmi-content{
+        flex-direction: column;
+    }
+    .bmi-table{
+        width: 70%;
+       }
+    .bmi-table table{
+        width: 100%;
+       }
+
+       .calculator {
+        width: 90%;
+        
+    }  
 }
