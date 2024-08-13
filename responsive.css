@@ -1,5 +1,9 @@
 
 @media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .nav-button{
         display: none;
     }  
@@ -20,11 +24,16 @@
     }
     .header-content button{
         width: 200px;
+        padding: 15px 20px;
     }
 
     .header-content h1{
         font-size: 60px;
     
+    }
+    .header-content p {
+        
+        margin: 20px 0 30px 0;
     }
     .header-photo{
         width: 100%;
@@ -35,6 +44,11 @@
     .child2{
         left: 106px;
         bottom: 122px;
+    }
+    .child-3 {
+        
+        left: 295px;
+        bottom: 394px;
     }
     .habit-image{
        flex-direction: column; 
@@ -67,6 +81,11 @@
         width: 90%;
         
     }  
+    .input-fild input {
+        /* padding: 12px 40px; */
+        padding: 12px 0 12px 5px;
+       
+    }
     .team-member{
         grid-template-columns: repeat(1,1fr);
     }

@@ -7,7 +7,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) ,#0a000077 100%);
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(70, 68, 68, 0.759),rgb(9, 0, 0));
 }
 
 
@@ -70,6 +70,8 @@ nav{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 .header-photo{
     width: 50%;
@@ -112,7 +114,21 @@ nav{
     left: 238px;
     bottom: 122px;
 }
-
+.child-3{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    
+    width: 180px;
+    height: 65px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgb(0, 0, 0, 0.234);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 500px;
+    bottom: 350px;
+}
 .header-content button{
     width: 240px;
     color: white;
