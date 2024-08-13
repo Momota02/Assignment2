@@ -35,4 +35,18 @@
     .habit-image{
        flex-direction: column; 
     }
+    .miles{
+        flex-direction: column;
+    }
+    .miles-content{
+        width: 85%;
+    
+    }
+    .miles-content button{
+        width: 90%;
+    }
+
+    .run-image img{
+        width: 90%;
+    }
 }
