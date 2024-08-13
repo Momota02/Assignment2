@@ -168,6 +168,49 @@ main{
     margin-bottom: 10px;
 
 }
+.miles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #222222;
+    border-radius: 18px;
+
+}
+.miles-content{
+    width: 443px;
+    margin-left: 50px;
+
+}
+.miles-content h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.miles-content p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+}
+.miles-content button{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: orangered;
+    padding: 16px 40px;
+    border-radius: 42px;
+}
+/* .run-image {
+    width: 50%;
+} */
+.run-image img{
+   width: 366px;
+   height: 312px; 
+   border-radius: 18px;
+   margin: 30px;
+}
 
 
 
