@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 576px) {
+    .nav-button{
+        display: none;
+    }  
+    .bars{
+        display: block;
+        color: white;
+        font-size: 25px;
+    }  
+    .container-header{
+        
+        flex-direction: column;
+     
+    
+    }
+    .header-content{
+        width: 100%;
+    
+    }
+    .header-content button{
+        width: 200px;
+    }
+
+    .header-content h1{
+        font-size: 60px;
+    
+    }
+    .header-photo{
+        width: 100%;
+    }
+    .child1{
+        width: 100%;
+    }
+    .habit-image{
+       flex-direction: column; 
+    }
+}
