@@ -73,7 +73,7 @@ nav{
 }
 .header-photo{
     width: 50%;
-    
+    text-align: end;
 }
 .header-photo img{
     width: 349px;
@@ -85,9 +85,15 @@ nav{
 }
 .red{
     background-color: red;
+    text-align: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    
+}
+
+.red i{
+ padding-top: 13px;
 }
 
 .child2{
@@ -103,8 +109,8 @@ nav{
     background-color: rgb(0, 0, 0, 0.234);
     backdrop-filter: blur(10px);
     position: absolute;
-    left: -14px;
-    bottom: 149px;
+    left: 238px;
+    bottom: 122px;
 }
 
 .header-content button{
@@ -211,7 +217,124 @@ main{
    border-radius: 18px;
    margin: 30px;
 }
+.bmi-title{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 88px;
+}
+.bmi-title h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
 
+.bmi-bag{
+    background-color: #222222;
+}
+.bmi-content{
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items:center; */
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+.bmi-table{
+
+}
+.bmi-table h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-table table{
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+
+.bmi-table th{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid white ;
+    padding: 15px 20px;
+}
+.bmi-table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid white ;
+    padding: 15px 20px;
+
+}
+.calculator{
+    width: 50%;
+    text-align: start;
+}
+.calculator h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    
+}
+.calculator p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.input-fild {
+    
+
+    text-align: start;
+    /* padding: 12px 40px; */
+    
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 12px;
+}
+
+.input-fild input{
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    
+}
+.gender{
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Activity-factor{
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    width: 100%;
+    padding: 12px 40px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.calculator button{
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: orangered;
+}
 
 
 

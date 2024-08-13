@@ -32,6 +32,10 @@
     .child1{
         width: 100%;
     }
+    .child2{
+        left: 106px;
+        bottom: 122px;
+    }
     .habit-image{
        flex-direction: column; 
     }
