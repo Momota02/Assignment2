@@ -336,6 +336,9 @@ main{
     border-radius: 42px;
     background: orangered;
 }
+.all-team{
+    padding-bottom: 80px;
+}
 .team{
     text-align: center;
     margin: 0 auto;
@@ -377,3 +380,54 @@ main{
 .name h1{
     color: white;
 }
+footer{
+    background: #222222;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+.fitness{
+    width: 50%;
+}
+.fitness h1{
+    color: orangered;
+    font-size: 70px;
+    font-weight: 800;
+    
+    margin-bottom: 20px;
+}
+.contact{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact h1{
+        color: white;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .contact p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 23px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    hr{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .last{
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
