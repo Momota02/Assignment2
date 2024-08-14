@@ -1,4 +1,7 @@
 
+
+/* miama font */
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     margin: 0;
     padding: 0;
@@ -65,6 +68,12 @@ nav{
     
 
        
+}
+
+
+#font{
+    font-family: 'Miama', sans-serif;
+    
 }
 .header-content p{
     color: rgba(255, 255, 255, 0.5);
@@ -416,7 +425,7 @@ footer{
     color: orangered;
     font-size: 70px;
     font-weight: 800;
-    
+    font-style: italic;
     margin-bottom: 20px;
 }
 .contact{
